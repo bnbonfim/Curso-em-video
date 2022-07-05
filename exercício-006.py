@@ -1,4 +1,2 @@
-n = input('Nome do aluno:')
-n1 = float(input('Digite a nota de matemática:'))
-n2 = float(input('Digite a nota de Física:'))
-print('A média de {} é {:.1f}'.format(n, (n1+n2)/2))
+n = int(input('Digite um valor:'))
+print('Analisando {}, temos: \n Com dobro de: {}\n Com triplo de :{} \n Com raiz de {}'.format(n, (n*2), (n*3), pow(n*1/2)))
