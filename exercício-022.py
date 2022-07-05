@@ -1,0 +1,16 @@
+n = str(input('Digite seu nome:'))
+print('nome em maiúsculo:{}'.format(n.upper()))
+print('nome em minúsculo:{}'.format(n.lower()))
+l = len(n.replace(' ', ''))
+print('O seu nome tem {} letras!'.format(l))
+n1 = n.split()
+i = n1[0]
+l2 = len(i)
+print('O seu primeiro é {} e tem {} letras!'.format(i, l2))
+###
+n = str(input('Digite seu nome:')).strip()
+print('Analisando seu nome...')
+print('Seu nome em maiúsculo {}:'.format(n.upper()))
+print('Seu nome em minúscolo {}:'.format(n.lower()))
+separa = n.split()
+print('O seu primeiro nome é {} e tem {} letras'.format(separa[0], len(separa[0])))
